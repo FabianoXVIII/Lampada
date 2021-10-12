@@ -1,0 +1,27 @@
+* {
+    font-family: calibri;
+}
+
+header, main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button{
+    width: 80px;
+    font-weight: bold;
+}
+
+#newLamp {
+    width: 120px;
+}
+
+.lampada:hover {
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: black;
+    color: #ffffff;
+    cursor: pointer;
+}
